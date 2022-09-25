@@ -88,8 +88,8 @@ describe('suma(x, y)', function() {
 describe('resta(x, y)', function() {
   it('Deberia devolver la diferencia de los dos argumentos', function() {
     expect(resta(5, 5)).toBe(0);
-    expect(resta(-1, 5)).toBe(-6);
-    expect(resta(5, -5)).toBe(10);
+    expect(resta(5, -1)).toBe(-6);
+    expect(resta(-5, 5)).toBe(10);
     expect(resta(0, 0)).toBe(0);
   });
 });
